@@ -1,0 +1,147 @@
+@media only screen and (min-width:480px) {
+
+body {
+    background-color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+* { box-sizing: border-box; }
+
+#container {
+    display: flex;
+    flex-direction:row;
+    gap:4px;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap:no-wrap;
+    box-sizing: border-box;
+    padding:3px;
+}
+
+.worker {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    padding:5px;
+    background-color: darkred;
+    color: white;
+    height:fit-content;
+    width:180px;
+    margin-top: 3px;
+    font-size:15px;
+    border: 1px solid white;
+
+
+}
+
+img {
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover {
+    background-color: white;
+    color: darkred;
+    border: 1px solid darkred;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+input {
+    padding: 5px;
+    margin: auto;
+}
+
+}
+
+/* MOBILE RESPONSIVE VERSION */
+
+@media only screen and (max-width:480px) {
+
+    body {
+        background-color:black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    * { box-sizing: border-box; }
+    
+    #container {
+        display: flex;
+        flex-direction:column;
+        gap:4px;
+        margin: auto;
+        height: fit-content;
+        width:80vw;
+        flex-wrap:no-wrap;
+        box-sizing: border-box;
+        padding:3px;
+    }
+    
+    .worker {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+        padding:5px;
+        background-color: darkred;
+        color: white;
+        height:fit-content;
+        width:80vw;
+        margin-top: 3px;
+        font-size:15px;
+        border: 1px solid white;
+    
+    
+    }
+    
+    img {
+        height:50%;
+        width:80%;
+        box-sizing: border-box;
+    }
+    
+    button {
+        background-color: darkred;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: white;
+        color: darkred;
+        border: 1px solid darkred;
+    }
+    
+    button:active {
+        transform: scale(0.95);
+    }
+    
+    input {
+        padding: 5px;
+    }
+    
+    }
