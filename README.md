@@ -8,4 +8,4 @@ I wanted to practice in this project to practice javascript array .includes meth
 I made it for every object in array.
 Thanks for reading.
 
-Deployed website of project :
+Deployed website of project : https://workersearchapp.netlify.app/
